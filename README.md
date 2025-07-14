@@ -1,33 +1,27 @@
-# Project Title: airbnb-clone-project 
+## Team Roles
 
-## 📄 Overview
+In this project, each team member plays a vital role in the successful development and deployment of the Airbnb Clone application. Below are the key roles and their responsibilities:
 
-This project is part of my Back-End Development course, focused on building a "RESTful API for a task management application"]. It demonstrates my understanding of back-end principles such as routing, database interaction, and API development.
+### 1. Backend Developer
+- Designs and implements the server-side logic.
+- Connects the app with the database and external APIs.
 
-## 🎯 Project Goals
+### 2. Frontend Developer
+- Builds and styles the user interface.
+- Implements responsive and accessible UI features.
 
-- Understand and implement server-side logic
-- Build and structure a back-end application using modern frameworks
-- Connect and interact with a database (e.g., MongoDB or MySQL)
-- Create, read, update, and delete (CRUD) data via APIs
-- Follow good coding practices using version control (Git & GitHub)
-- Improve error handling, debugging, and deployment skills
+### 3. Database Administrator (DBA)
+- Designs the database schema and manages data integrity.
+- Ensures optimized queries and data backups.
 
-## 🛠️ Tech Stack
+### 4. DevOps Engineer
+- Manages deployment, cloud infrastructure, and CI/CD pipelines.
+- Monitors app performance and uptime.
 
-- **Language:** JavaScript (Node.js)
-- **Framework:** Express.js
-- **Database:** [MongoDB / MySQL / PostgreSQL]
-- **Tools:** 
-  - Git & GitHub for version control
-  - Postman for API testing
-  - dotenv for environment configuration
-  - Nodemon for development server
+### 5. Project Manager
+- Organizes project tasks and deadlines.
+- Ensures communication and coordination between all team members.
 
-## 🚧 Project Status
-
-This project is actively under development as part of my learning process. I will continue to update it as I complete more modules and features.
-
-## 📫 Contact
-
-Created by George ibuchi– feel free to reach out via GitHub: georgeibuchi-1999-os(https://github.com/georgeibuchi-1999-os) airbnb-clone-project
+### 6. QA Engineer
+- Tests the application for bugs and performance issues.
+- Ensures the product meets quality standards.
