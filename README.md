@@ -1,4 +1,4 @@
-## Database Design
+## Database Design 
 
 This section outlines the core database structure for the Airbnb Clone project.
 
@@ -36,7 +36,7 @@ This section outlines the core database structure for the Airbnb Clone project.
 - **id**: unique identifier (primary key)
 - **user_id**: foreign key to Users table
 - **property_id**: foreign key to Properties table
-- **rating**: numerical score (e.g., 1–5)
+- **rating**: numerical score (e.g., 15)
 - **comment**: written feedback
 
 > A user can review multiple properties. Each property can have many reviews.
