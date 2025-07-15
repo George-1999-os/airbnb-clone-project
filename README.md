@@ -1,25 +1,20 @@
-## API Security
+## CI/CD Pipeline
 
-Securing the API is essential for protecting the application, users, and data. Below are the key measures we will implement:
+Continuous Integration and Continuous Deployment (CI/CD) is a modern DevOps practice that ensures faster and more reliable software delivery.
 
-###  Authentication
-We will use token-based authentication (such as JWT) to verify users' identity. This ensures only authorized users can access protected routes.
+###  What is CI/CD?
 
-###  Authorization
-Role-based access control (RBAC) will ensure that users can only access the resources they are allowed to (e.g., hosts vs. guests vs. admins).
+- **Continuous Integration (CI)** automatically runs tests and builds the app whenever code is pushed. This ensures early detection of bugs and integration issues.
+- **Continuous Deployment (CD)** deploys the tested application to a staging or production environment without manual intervention.
 
-###  Rate Limiting
-To prevent abuse (e.g., brute force login attempts), we'll limit how many times users can hit the API in a certain period.
+This approach increases development speed, minimizes errors, and improves product stability.
 
-###  Data Encryption
-All traffic between client and server will be encrypted with HTTPS. Sensitive data like passwords will be hashed before storage.
+###  Tools for CI/CD
 
-###  Input Validation & Sanitization
-To guard against SQL injection and XSS, all input data will be strictly validated and sanitized.
+We plan to use the following tools:
 
-###  Why Security Matters
+- **GitHub Actions**  to automate workflows like testing, building, and deployment.
+- **Docker**  to containerize the application and ensure consistency across environments.
+- **Heroku / AWS / Render** to host and deploy the application reliably.
 
-- **Protects User Data**  ensures personal info isn't leaked
-- **Secures Financial Transactions**  guards against fraud and theft
-- **Builds User Trust**  people won't use a platform they can't trust
-- **Prevents System Abuse** keeps attackers out
+CI/CD is essential for maintaining code quality, reducing manual work, and enabling rapid feature delivery.
