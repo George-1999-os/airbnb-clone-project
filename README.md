@@ -1,52 +1,24 @@
-## Database Design 
+## Feature Breakdown
 
-This section outlines the core database structure for the Airbnb Clone project.
+This Airbnb Clone project includes the following core features:
 
-### Users
-- **id**: unique identifier (primary key)
-- **name**: full name of the user
-- **email**: unique email address
-- **password_hash**: encrypted password
-- **created_at**: timestamp when the user account was created
+### User Management
+Users can register, log in, and manage their profiles. Authentication ensures secure access, while role-based permissions help differentiate between hosts and guests.
 
-> One user can have multiple properties and make multiple bookings.
+### Property Management
+Hosts can list new properties, update property details, and manage availability. Each property includes information like title, location, price per night, and images.
 
+### Booking System
+Guests can search for available properties, make bookings, and view past and upcoming reservations. The system ensures no double bookings for the same property.
 
-### Properties
-- **id**: unique identifier (primary key)
-- **owner_id**: foreign key to Users table
-- **title**: name/title of the property
-- **location**: property address
-- **price_per_night**: cost per night
+### Review System
+After staying at a property, guests can leave reviews and ratings. This helps improve trust and feedback across the platform.
 
-> A user can own many properties. Each property can have multiple bookings and reviews.
+### Payment Integration
+Secure payments are handled via supported payment methods (e.g., card, PayPal). Each payment is tied to a booking and includes receipt and status information.
 
+### API Security
+The API includes authentication, authorization, and validation mechanisms to protect user data and prevent misuse of the platform.
 
-### Bookings
-- **id**: unique identifier (primary key)
-- **user_id**: foreign key to Users table
-- **property_id**: foreign key to Properties table
-- **start_date**: check-in date
-- **end_date**: check-out date
-
-> A booking belongs to a user and a property.
-
-
-###  Reviews
-- **id**: unique identifier (primary key)
-- **user_id**: foreign key to Users table
-- **property_id**: foreign key to Properties table
-- **rating**: numerical score (e.g., 15)
-- **comment**: written feedback
-
-> A user can review multiple properties. Each property can have many reviews.
-
-
-### Payments
-- **id**: unique identifier (primary key)
-- **booking_id**: foreign key to Bookings table
-- **amount**: total amount paid
-- **payment_method**: e.g., card, PayPal
-- **status**: completed, pending, failed
-
-> Each payment is tied to one booking.
+### CI/CD Integration
+The project can be integrated with CI/CD tools like GitHub Actions to enable continuous testing and deployment as the codebase evolves.
