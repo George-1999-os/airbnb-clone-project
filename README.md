@@ -1,27 +1,10 @@
-## Team Roles
+## 🛠️ Technology Stack
 
-In this project, each team member plays a vital role in the successful development and deployment of the Airbnb Clone application. Below are the key roles and their responsibilities:
-
-### 1. Backend Developer
-- Designs and implements the server-side logic.
-- Connects the app with the database and external APIs.
-
-### 2. Frontend Developer
-- Builds and styles the user interface.
-- Implements responsive and accessible UI features.
-
-### 3. Database Administrator (DBA)
-- Designs the database schema and manages data integrity.
-- Ensures optimized queries and data backups.
-
-### 4. DevOps Engineer
-- Manages deployment, cloud infrastructure, and CI/CD pipelines.
-- Monitors app performance and uptime.
-
-### 5. Project Manager
-- Organizes project tasks and deadlines.
-- Ensures communication and coordination between all team members.
-
-### 6. QA Engineer
-- Tests the application for bugs and performance issues.
-- Ensures the product meets quality standards.
+| Technology   | Description |
+|--------------|-------------|
+| **Django**   | A high-level Python web framework used to build robust and scalable web applications. It handles the backend logic, models, views, and RESTful APIs for the Airbnb clone. |
+| **PostgreSQL** | A powerful, open-source relational database used to store and manage structured data such as users, bookings, and properties. |
+| **GraphQL**  | A query language for APIs that allows clients to request only the data they need. Used in this project to optimize API interactions. |
+| **HTML/CSS/JavaScript** | Core frontend technologies used to build and style the user interface. |
+| **Docker**   | A containerization platform that ensures the app runs consistently across different environments. |
+| **Git & GitHub** | Version control system and repository hosting for collaboration, code tracking, and deployment. |
