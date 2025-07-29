@@ -1,3 +1,4 @@
+
 # 0x00. AirBnB clone - The console
 
 `Release date: Nov-15-2021`
@@ -71,7 +72,6 @@ $ ./console.py
 (hbnb) help
 
 Documented commands (type help <topic>):
-========================================
 EOF  help  quit
 
 (hbnb)
@@ -87,7 +87,6 @@ $ echo "help" | ./console.py
 (hbnb)
 
 Documented commands (type help <topic>):
-========================================
 EOF  help  quit
 (hbnb)
 $
@@ -97,8 +96,7 @@ $
 $ cat test_help | ./console.py
 (hbnb)
 
-Documented commands (type help <topic>):
-========================================
+Documented commands (type help <topic>
 EOF  help  quit
 (hbnb)
 $
@@ -173,7 +171,6 @@ $ ./console.py
 (hbnb) help
 
 Documented commands (type help <topic>):
-========================================
 EOF  all  count  create  destroy  help  quit  show  update
 
 (hbnb)
@@ -337,3 +334,24 @@ Ronald
 <a href="https://github.com/ralexrivero/" target="_blank">  <img align="left" src="https://img.shields.io/github/followers/ralexrivero?style=social" alt="Ralex | Github"> </a>
 
 <br/>
+## CI/CD Pipeline
+
+Continuous Integration and Continuous Deployment (CI/CD) is a modern DevOps practice that ensures faster and more reliable software delivery.
+
+###  What is CI/CD?
+
+- **Continuous Integration (CI)** automatically runs tests and builds the app whenever code is pushed. This ensures early detection of bugs and integration issues.
+- **Continuous Deployment (CD)** deploys the tested application to a staging or production environment without manual intervention.
+
+This approach increases development speed, minimizes errors, and improves product stability.
+
+###  Tools for CI/CD
+
+We plan to use the following tools:
+
+- **GitHub Actions**  to automate workflows like testing, building, and deployment.
+- **Docker**  to containerize the application and ensure consistency across environments.
+- **Heroku / AWS / Render** to host and deploy the application reliably.
+
+CI/CD is essential for maintaining code quality, reducing manual work, and enabling rapid feature delivery.
+ 167ead32c119b6901b96c745f71652cbd1b5d09e
